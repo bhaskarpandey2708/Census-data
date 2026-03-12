@@ -1,0 +1,7 @@
+source_name,category,url,priority,notes
+censusindia_home,portal,https://censusindia.gov.in/,1,Primary official portal
+censusindia_archive_home,portal,https://censusindia.gov.in/2011-common/censusdata2011.html,1,2011 archive landing page
+censusindia_pca,table,https://censusindia.gov.in/2011census/PCA/pca_highlights/pca_highlights_india.html,1,PCA highlights landing
+censusindia_houselisting,table,https://censusindia.gov.in/2011census/hlo/hlo_highlights.html,2,Houselisting & housing census
+censusindia_metadata,directory,https://censusindia.gov.in/2011census/dchb/DCHB.html,2,District Census Handbook listing
+open_city_block,backup,https://data.opencity.in/dataset?tags=census,3,Non-official fallback dataset index

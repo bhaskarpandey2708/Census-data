@@ -1,0 +1,7 @@
+source_name,category,url,priority,url_valid,probe_status,probe_detail,notes
+censusindia_archive_home,portal,https://censusindia.gov.in/2011-common/censusdata2011.html,1,yes,warn,<urlopen error Tunnel connection failed: 403 Forbidden>,2011 archive landing page
+censusindia_home,portal,https://censusindia.gov.in/,1,yes,warn,<urlopen error Tunnel connection failed: 403 Forbidden>,Primary official portal
+censusindia_pca,table,https://censusindia.gov.in/2011census/PCA/pca_highlights/pca_highlights_india.html,1,yes,warn,<urlopen error Tunnel connection failed: 403 Forbidden>,PCA highlights landing
+censusindia_houselisting,table,https://censusindia.gov.in/2011census/hlo/hlo_highlights.html,2,yes,warn,<urlopen error Tunnel connection failed: 403 Forbidden>,Houselisting & housing census
+censusindia_metadata,directory,https://censusindia.gov.in/2011census/dchb/DCHB.html,2,yes,warn,<urlopen error Tunnel connection failed: 403 Forbidden>,District Census Handbook listing
+open_city_block,backup,https://data.opencity.in/dataset?tags=census,3,yes,warn,<urlopen error Tunnel connection failed: 403 Forbidden>,Non-official fallback dataset index
