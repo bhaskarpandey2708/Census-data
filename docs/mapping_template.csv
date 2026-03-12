@@ -1,0 +1,10 @@
+source_dataset,source_file,source_sheet,source_column,target_table,target_column,transform_rule,join_key_used,notes
+pca_core,pca_village.xlsx,Sheet1,Total Persons,fact_population_2011,total_population,cast bigint,state_code+district_code+subdist+village_code,
+pca_core,pca_village.xlsx,Sheet1,Male,fact_population_2011,male_population,cast bigint,state_code+district_code+subdist+village_code,
+pca_core,pca_village.xlsx,Sheet1,Female,fact_population_2011,female_population,cast bigint,state_code+district_code+subdist+village_code,
+sc_st,scst_table.xlsx,Sheet1,SC Persons,fact_population_2011,sc_population,cast bigint,geo_code,
+sc_st,scst_table.xlsx,Sheet1,ST Persons,fact_population_2011,st_population,cast bigint,geo_code,
+rural_urban,pca_ru.xlsx,Sheet1,Rural Total,fact_population_2011,rural_population,cast bigint,geo_code,
+rural_urban,pca_ru.xlsx,Sheet1,Urban Total,fact_population_2011,urban_population,cast bigint,geo_code,
+religion,religion_table.xlsx,Sheet1,Hindus,fact_population_2011,religion_hindu_population,cast bigint,geo_code,
+religion,religion_table.xlsx,Sheet1,Muslims,fact_population_2011,religion_muslim_population,cast bigint,geo_code,
